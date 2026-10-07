@@ -26,25 +26,6 @@ Today I started my cloud learning journey.
 ### Next Step
 
 Start learning the Linux command line.
-
-
-
-Day 1 — Linux Command Line Basics
-
-Today I started practicing Linux using Ubuntu on WSL.
-
-Commands I learned
-pwd — shows my current location.
-ls — shows files and folders.
-mkdir — creates a new folder.
-cd — moves into a folder.
-cd .. — moves back to the previous folder.
-Practice
-
-I created a folder named practice, entered it using cd practice, checked my location using pwd, and returned to my home folder using cd ...
-
-What I understood
-
 Linux uses the terminal to interact with the operating system using commands. I practiced basic navigation and folder management commands.
 
 Next Step
