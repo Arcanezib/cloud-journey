@@ -51,3 +51,46 @@ I also learned how basic Linux file and directory operations are performed using
 ### Next Step
 
 Continue learning more Linux commands and file operations.
+
+
+
+## Day 3 — Copying, Moving and Wildcards
+
+Today I practiced more Linux file and directory operations.
+
+### Commands I learned
+
+- `cp` — copies files.
+- `mv` — moves or renames files.
+- `rm` — removes files.
+- `mkdir` — creates a directory.
+- `*` — wildcard used to match multiple files.
+- `*.txt` — matches files ending with `.txt`.
+
+### Practice
+
+I copied `mybackup.txt` into the `practice` directory using `cp`.
+
+I then moved `mybackup.txt` into the `practice` directory using `mv`.
+
+I created a `backup` directory and copied all `.txt` files from the `practice` directory into it using:
+
+`cp practice/*.txt backup/`
+
+### What I understood
+
+I learned the difference between `cp` and `mv`.
+
+`cp` creates a copy while keeping the original file, whereas `mv` moves the file from one location to another.
+
+I also learned how wildcards can be used to work with multiple files.
+
+### Mistake and Learning
+
+I initially used a space between `*` and `.txt`, which caused an error.
+
+I learned that `*.txt` must be written together because it represents files ending with `.txt`.
+
+### Next Step
+
+Continue learning Linux commands for viewing and searching file contents.
