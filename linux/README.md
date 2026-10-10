@@ -94,3 +94,84 @@ I learned that `*.txt` must be written together because it represents files endi
 ### Next Step
 
 Continue learning Linux commands for viewing and searching file contents.
+
+
+
+## Day 4: Viewing and Searching Files
+
+### Objective
+Learn how to display file contents and search for specific text using Linux commands.
+
+### Commands Practiced
+
+| Command | Purpose |
+|---|---|
+| `cat practice/test.txt` | Displays the complete file contents |
+| `head practice/test.txt` | Displays the first 10 lines by default |
+| `tail practice/test.txt` | Displays the last 10 lines by default |
+| `grep "Line 3" practice/test.txt` | Searches for specific text |
+| `grep -i "line 3" practice/test.txt` | Searches without case sensitivity |
+| `grep -n "Line 3" practice/test.txt` | Displays matching text with its line number |
+
+### Practical Work
+Created a five-line text file and practiced displaying its contents, viewing the beginning and end of the file, and searching for a specific line.
+
+### Key Learnings
+- `cat` displays file contents.
+- `head` and `tail` show the beginning and end of a file.
+- `grep` searches for text.
+- The `-i` option ignores case differences.
+- The `-n` option displays matching line numbers.
+
+### Cloud Computing Application
+These commands are useful for inspecting configuration files and searching application or server logs for relevant information.
+
+---
+
+## Day 5: Linux Users, Groups and Permissions
+
+### Objective
+Understand Linux users, groups, file permissions, and basic permission management.
+
+### Commands Practiced
+
+| Command | Purpose |
+|---|---|
+| `whoami` | Displays the current username |
+| `id` | Displays user ID, group ID, and group information |
+| `groups` | Lists the current user's groups |
+| `ls -l practice/test.txt` | Displays detailed file information and permissions |
+| `ls -ld practice` | Displays detailed information about the directory itself |
+| `chmod u-w practice/test.txt` | Removes write permission for the owner |
+| `chmod u+w practice/test.txt` | Restores write permission for the owner |
+
+### Understanding Permissions
+
+Linux uses three basic permissions:
+
+- `r` — Read
+- `w` — Write
+- `x` — Execute
+
+These permissions apply to the owner (`u`), group (`g`), and others (`o`).
+
+For example, `-rw-r--r--` indicates a regular file where the owner can read and write, while the group and others can read it.
+
+The `chmod` command changes permissions. I practiced removing and restoring the owner's write permission on a test file and verified the changes using `ls -l`.
+
+### Key Learnings
+- Linux identifies users and manages group memberships.
+- File and directory permissions control access.
+- `ls -l` helps inspect file permissions.
+- `chmod` can add or remove permissions.
+
+### Cloud Computing Application
+Permissions help secure files, application configurations, and other resources on Linux cloud servers by controlling who can access or modify them.
+
+---
+
+## Progress Summary
+
+- **Day 4:** Practiced viewing and searching files.
+- **Day 5:** Practiced checking users, groups, and file permissions.
+- **Next:** Learn about `sudo`, administrator privileges, and file ownership.
