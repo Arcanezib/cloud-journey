@@ -175,3 +175,46 @@ Permissions help secure files, application configurations, and other resources o
 - **Day 4:** Practiced viewing and searching files.
 - **Day 5:** Practiced checking users, groups, and file permissions.
 - **Next:** Learn about `sudo`, administrator privileges, and file ownership.
+
+
+
+## Day 6: Sudo, Root User and File Ownership
+
+### Objective
+Understand administrator privileges, the root user, and file ownership in Linux.
+
+### Commands Practiced
+
+| Command | Purpose |
+|---|---|
+| `sudo -l` | Lists commands permitted through sudo |
+| `sudo whoami` | Displays `root` when run with root privileges |
+| `whoami` | Displays the current user identity |
+| `ls -l practice/test.txt` | Displays file permissions, owner, and group |
+| `id` | Displays user ID, group ID, and group memberships |
+
+### Key Concepts
+
+- **Sudo:** Allows an authorized user to execute commands with elevated privileges.
+- **Root user:** The Linux administrator account with extensive system-wide access.
+- **File ownership:** Every file has an owner and an associated group.
+- **Chown:** A command used to change file ownership.
+
+### Practical Work
+Checked sudo permissions, compared `whoami` with `sudo whoami`, and inspected file ownership using `ls -l`.
+
+### Key Learnings
+I learned how Linux separates normal user activity from administrative tasks and how ownership information helps manage access to files.
+
+### Cloud Computing Application
+Sudo and ownership management are important when administering cloud servers, installing software, maintaining configurations, and protecting system resources.
+
+---
+
+### Progress Summary
+
+- **Day 4:** Viewing and searching files
+- **Day 5:** Users, groups, and permissions
+- **Day 6:** Sudo, root user, and file ownership
+
+**Next:** Day 7 — Linux processes, CPU usage, and memory monitoring.
