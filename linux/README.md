@@ -218,3 +218,37 @@ Sudo and ownership management are important when administering cloud servers, in
 - **Day 6:** Sudo, root user, and file ownership
 
 **Next:** Day 7 — Linux processes, CPU usage, and memory monitoring.
+
+
+
+
+## Day 7: Processes, CPU and Memory
+
+### Topics Learned
+- Understanding Linux processes and Process IDs (PIDs)
+- Viewing processes using `ps` and `ps aux`
+- Understanding CPU and memory usage
+- Checking RAM and swap memory with `free -h`
+- Checking system uptime and load average with `uptime`
+
+### Commands Practised
+
+```bash
+ps
+ps aux
+free -h
+uptime
+```
+
+### Key Learnings
+- A process is a running program.
+- Each process has a unique PID.
+- RAM is temporary working memory, while SSD or hard drive storage retains files.
+- Linux provides commands to inspect memory usage and system workload.
+- These commands are useful for basic Linux and cloud-server monitoring.
+
+### Practical Work
+Executed the commands in Ubuntu on WSL and observed running processes, memory statistics, swap usage, uptime, and load averages.
+
+### Outcome
+Learned the basics of Linux process monitoring and system resource inspection.
