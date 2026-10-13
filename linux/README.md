@@ -252,3 +252,37 @@ Executed the commands in Ubuntu on WSL and observed running processes, memory st
 
 ### Outcome
 Learned the basics of Linux process monitoring and system resource inspection.
+
+
+## Day 8: Linux Networking Basics
+
+### Topics Learned
+- Network interfaces and IP addresses
+- Testing connectivity using `ping`
+- Understanding hostnames
+- DNS name resolution
+- Gateways and routing tables
+
+### Commands Practised
+
+```bash
+ip a
+ping -c 4 google.com
+hostname
+getent hosts google.com
+ip route
+```
+
+### Key Learnings
+- `ip a` displays network interfaces and their IP addresses.
+- `ping` checks whether a destination responds over the network.
+- `hostname` displays the system's hostname.
+- `getent hosts` looks up addresses associated with a domain name.
+- `ip route` displays routes used to direct network traffic.
+- A default route is used when no more specific route matches.
+
+### Practical Work
+Executed networking commands in Ubuntu on WSL and inspected network interfaces, connectivity, hostname, DNS results, and routing information.
+
+### Outcome
+Learned the basics of Linux networking and practised commands useful for understanding cloud-server connectivity.
