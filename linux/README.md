@@ -286,3 +286,42 @@ Executed networking commands in Ubuntu on WSL and inspected network interfaces, 
 
 ### Outcome
 Learned the basics of Linux networking and practised commands useful for understanding cloud-server connectivity.
+
+
+
+## Day 9: Linux Networking and Troubleshooting
+
+### Topics Learned
+- Testing network reachability with `ping`
+- Looking up domain addresses with `getent hosts`
+- Checking website responses with `curl`
+- Understanding HTTP status codes
+- Checking command availability with `command -v`
+- Viewing DNS configuration in `/etc/resolv.conf`
+
+### Commands Practised
+
+```bash
+ping -c 4 github.com
+getent hosts github.com
+curl -I https://github.com
+curl -s -o /dev/null -w "%{http_code}\n" https://github.com
+command -v curl
+command -v tracepath
+cat /etc/resolv.conf
+getent hosts microsoft.com
+```
+
+### Key Learnings
+- `ping` checks whether a destination responds to network messages.
+- `getent hosts` looks up addresses associated with domain names.
+- `curl` can inspect a website's HTTP response.
+- HTTP status code `200` indicates a successful request.
+- `command -v` checks whether Linux can locate a command.
+- `/etc/resolv.conf` contains DNS-related settings.
+
+### Practical Work
+Tested GitHub connectivity, looked up domain addresses, inspected HTTP response headers, checked command availability, and viewed DNS configuration in Ubuntu on WSL.
+
+### Outcome
+Practised introductory Linux networking troubleshooting commands.
