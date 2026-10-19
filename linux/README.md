@@ -325,3 +325,66 @@ Tested GitHub connectivity, looked up domain addresses, inspected HTTP response 
 
 ### Outcome
 Practised introductory Linux networking troubleshooting commands.
+
+
+
+## Day 10: Downloading and Inspecting Files
+
+### What I Learned
+Today, I learned how to download webpage content using `curl` and inspect the downloaded file using Linux commands.
+
+### Commands Practiced
+
+**1. Download webpage content**
+```bash
+curl -o hello.txt https://example.com
+```
+Downloads the webpage's content and saves it as `hello.txt`.
+
+**2. Check file details**
+```bash
+ls -l hello.txt
+```
+Displays the file's size and other details.
+
+**3. Display file contents**
+```bash
+cat hello.txt
+```
+Shows the downloaded HTML content.
+
+**4. Count lines**
+```bash
+wc -l hello.txt
+```
+Counts the number of lines in the file.
+
+**5. Count words**
+```bash
+wc -w hello.txt
+```
+Counts the words in the file.
+
+**6. Check disk usage**
+```bash
+du -h hello.txt
+```
+Shows the disk space used by the file in a human-readable format.
+
+**7. Identify the file type**
+```bash
+file hello.txt
+```
+Identifies the file as an HTML document containing ASCII text.
+
+### Key Takeaways
+- `curl` can download content from a website.
+- `-o` saves the downloaded content to a file.
+- HTML is the code used to structure webpages.
+- `wc` counts lines and words.
+- `du` checks disk space usage.
+- `file` helps identify a file's type.
+
+### Day 10 Summary
+I practiced downloading webpage content and inspecting a file using Linux commands. These skills are useful for understanding files and working with internet resources in Linux and cloud environments.
+
