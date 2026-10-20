@@ -388,3 +388,63 @@ Identifies the file as an HTML document containing ASCII text.
 ### Day 10 Summary
 I practiced downloading webpage content and inspecting a file using Linux commands. These skills are useful for understanding files and working with internet resources in Linux and cloud environments.
 
+
+
+
+## Day 11: Linux Disk Space and Storage
+
+### What I Learned
+Today, I learned how to check available filesystem storage, measure directory sizes, and sort files and folders by their disk usage.
+
+### Commands Practiced
+
+**1. Check filesystem storage**
+```bash
+df -h
+```
+Displays filesystem size, used space, available space, and percentage used.
+
+**2. Check home directory size**
+```bash
+du -sh ~
+```
+Shows a summary of the disk usage of my home directory.
+
+**3. View directory sizes**
+```bash
+du -h ~
+```
+Displays disk usage for directories and their contents.
+
+**4. Check a specific directory**
+```bash
+du -sh ~/practice
+```
+Shows the total disk usage of the practice folder.
+
+**5. Sort files and directories by size**
+```bash
+du -ah ~ | sort -h
+```
+Lists files and directories, sorted from smallest to largest by size.
+
+### Key Takeaways
+- `df -h` helps monitor available filesystem storage.
+- `du` measures disk usage by files and directories.
+- `-s` displays a summary.
+- `-a` includes files as well as directories.
+- `~` represents the home directory.
+- `sort -h` sorts human-readable sizes correctly.
+- Hidden files and directories begin with a dot (`.`).
+
+### Practical Results
+- Home directory usage: approximately 136 KB.
+- Practice directory usage: approximately 12 KB.
+- Cache directory usage: approximately 64 KB.
+
+*Note: These are the reported sizes from my Linux environment during practice.*
+
+### Day 11 Summary
+I practiced Linux storage monitoring and learned how to inspect directory sizes and identify larger items. These commands are useful for basic Linux administration and cloud server maintenance.
+
+
